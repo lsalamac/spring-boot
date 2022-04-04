@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class ComponentImplement implements ComponentDependency{
     @Override
     public void saludar() {
-    System.out.print("hola");
+        System.out.print("hola");
     }
 }
